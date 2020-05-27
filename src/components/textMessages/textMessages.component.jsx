@@ -18,8 +18,6 @@ const ComponentContainer = styled.div`
   margin: 15px 15px;
   animation-name: ${fadeIn};
   animation-duration: ${(props) => props.duration};
-  /* animation-delay: ${(props) => props.delay}; */
-
   opacity: 1;
 `;
 

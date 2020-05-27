@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <Router>
+      <div></div>
       <nav>
         <Link>Home</Link>
 
