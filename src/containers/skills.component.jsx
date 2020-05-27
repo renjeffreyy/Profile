@@ -6,7 +6,34 @@ const Container = styled.div`
   width: 100vw;
 `;
 
+const Heading = styled.p``;
+
+const SkillText = styled.p``;
+
+const SkillContainer = styled.div`
+  width: 50%;
+`;
+
 const Skills = () => {
-  return <Container>Skillls</Container>;
+  return (
+    <Container>
+      <Heading>Languages</Heading>
+      <SkillContainer>
+        <SkillText>JavaScript, CSS/SASS, HTML 5</SkillText>
+      </SkillContainer>
+      <Heading>Front End</Heading>
+      <SkillContainer>
+        <SkillText>React.js, Redux</SkillText>
+      </SkillContainer>
+      <Heading>Back End</Heading>
+      <SkillContainer>
+        <SkillText>Node.js, Express.js</SkillText>
+      </SkillContainer>
+      <Heading>Databases</Heading>
+      <SkillContainer>MySQL, MangoDB</SkillContainer>
+      <Heading>Design</Heading>
+      <SkillText>Figma, Photoshop, Illustrator, Premier</SkillText>
+    </Container>
+  );
 };
 export default Skills;

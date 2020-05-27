@@ -12,15 +12,6 @@ const fadeIn = keyframes`
   }
 `;
 
-const showBackground = keyframes`
-from:{
-  opacity:0;
-}
-to{
-  opacity:0;
-  }
-`;
-
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
