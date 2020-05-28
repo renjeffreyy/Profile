@@ -8,9 +8,10 @@ import MyWork from './components/myWork/MyWork.component';
 import OnLoad from './containers/onLoad.component';
 import Hero from './containers/hero.component';
 import Skills from './containers/skills.component';
+import About from './components/about/about.component';
 
 function App() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     setTimeout(() => {
@@ -25,9 +26,9 @@ function App() {
       ) : (
         <div>
           <Hero loading={loading} />
-          <Skills />
-          <Navbar />
+          <About />
           <MyWork />
+          <Skills />
           <Contact />
         </div>
       )}

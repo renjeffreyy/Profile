@@ -4,9 +4,12 @@ import styled from 'styled-components';
 const Container = styled.div`
   height: 100vh;
   width: 100vw;
+  background-color: #f7ede2;
 `;
 
-const Heading = styled.p``;
+const Heading = styled.p`
+  margin: 0;
+`;
 
 const SkillText = styled.p``;
 
